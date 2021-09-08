@@ -1,0 +1,26 @@
+flags: 
+  - -adce
+  - -aggressive-instcombine
+  - -bdce
+  - -correlated-propagation
+  - -dse
+  - -early-cse-memssa
+  - -gvn
+  - -indvars
+  - -inferattrs
+  - -instcombine
+  - -ipsccp
+  - -jump-threading
+  - -licm
+  - -loop-rotate
+  - -loop-unroll
+  - -loop-unswitch
+  - -mem2reg
+  - -memcpyopt
+  - -mldst-motion
+  - -reassociate
+  - -simplifycfg
+  - -slp-vectorizer
+  - -speculative-execution
+  - -sroa
+  - -tailcallelim
