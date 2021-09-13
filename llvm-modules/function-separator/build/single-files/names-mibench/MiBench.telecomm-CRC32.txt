@@ -1,0 +1,5 @@
+updateCRC32
+crc32file
+crc32buf
+main
+mybasename
