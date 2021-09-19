@@ -1,0 +1,32 @@
+python3 statistics.py ./O0/Angha15-LLVM-O0.yaml > Angha15-LLVM-O0-metrics.yaml
+python3 statistics.py ./O0/AnghaW-LLVM-O0.yaml > AnghaW-LLVM-O0-metrics.yaml
+python3 statistics.py ./O0/Angha15-O0.yaml > Angha15-O0-metrics.yaml
+python3 statistics.py ./O0/AnghaW-O0.yaml > AnghaW-O0-metrics.yaml
+python3 statistics.py ./O0/Coremark-pro-f-300-O0.yaml > Coremark-pro-f-300-O0-metrics.yaml
+python3 statistics.py ./O0/LLVM-Suite-Test-O0.yaml > LLVM-Suite-Test-O0-metrics.yaml
+python3 statistics.py ./O0/LLVM-Suite-Train-O0.yaml > LLVM-Suite-Train-O0-metrics.yaml
+python3 statistics.py ./O0/Mibench-O0.yaml > Mibench-O0-metrics.yaml
+python3 statistics.py ./O0/Mibench-f-300-O0.yaml > Mibench-f-300-O0-metrics.yaml
+python3 statistics.py ./O0/Coremark-pro-O0.yaml > Coremark-pro-O0-metrics.yaml
+
+python3 statistics.py ./Os/Angha15-LLVM-Os.yaml > Angha15-LLVM-Os-metrics.yaml
+python3 statistics.py ./Os/AnghaW-LLVM-Os.yaml > AnghaW-LLVM-Os-metrics.yaml
+python3 statistics.py ./Os/Angha15-Os.yaml > Angha15-Os-metrics.yaml
+python3 statistics.py ./Os/AnghaW-Os.yaml > AnghaW-Os-metrics.yaml
+python3 statistics.py ./Os/Coremark-pro-f-300-Os.yaml > Coremark-pro-f-300-Os-metrics.yaml
+python3 statistics.py ./Os/LLVM-Suite-Test-Os.yaml > LLVM-Suite-Test-Os-metrics.yaml
+python3 statistics.py ./Os/LLVM-Suite-Train-Os.yaml > LLVM-Suite-Train-Os-metrics.yaml
+python3 statistics.py ./Os/Mibench-Os.yaml > Mibench-Os-metrics.yaml
+python3 statistics.py ./Os/Mibench-f-300-Os.yaml > Mibench-f-300-Os-metrics.yaml
+python3 statistics.py ./Os/Coremark-pro-Os.yaml > Coremark-pro-Os-metrics.yaml
+
+python3 statistics.py ./Oz/Angha15-LLVM-Oz.yaml > Angha15-LLVM-Oz-metrics.yaml
+python3 statistics.py ./Oz/AnghaW-LLVM-Oz.yaml > AnghaW-LLVM-Oz-metrics.yaml
+python3 statistics.py ./Oz/Angha15-Oz.yaml > Angha15-Oz-metrics.yaml
+python3 statistics.py ./Oz/AnghaW-Oz.yaml > AnghaW-Oz-metrics.yaml
+python3 statistics.py ./Oz/Coremark-pro-f-300-Oz.yaml > Coremark-pro-f-300-Oz-metrics.yaml
+python3 statistics.py ./Oz/LLVM-Suite-Test-Oz.yaml > LLVM-Suite-Test-Oz-metrics.yaml
+python3 statistics.py ./Oz/LLVM-Suite-Train-Oz.yaml > LLVM-Suite-Train-Oz-metrics.yaml
+python3 statistics.py ./Oz/Mibench-Oz.yaml > Mibench-Oz-metrics.yaml
+python3 statistics.py ./Oz/Mibench-f-300-Oz.yaml > Mibench-f-300-Oz-metrics.yaml
+python3 statistics.py ./Oz/Coremark-pro-Oz.yaml > Coremark-pro-Oz-metrics.yaml
