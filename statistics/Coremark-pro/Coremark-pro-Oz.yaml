@@ -1,0 +1,9 @@
+cjpeg-rose7-preset.ir.Oz: 7826
+core.ir.Oz: 1866
+linear_alg-mid-100x100-sp.ir.Oz: 1370
+loops-all-mid-10k-sp.ir.Oz: 3838
+nnet_test.ir.Oz: 2150
+parser-125k.ir.Oz: 3024
+radix2-big-64k.ir.Oz: 709
+sha-test.ir.Oz: 3918
+zip-test.ir.Oz: 12222
