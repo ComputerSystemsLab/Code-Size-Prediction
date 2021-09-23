@@ -1,0 +1,4 @@
+./cfg-pass/build
+./inst-count-pass/build
+./msf-pass/build
+./msf-pass/lib

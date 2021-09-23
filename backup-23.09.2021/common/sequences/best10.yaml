@@ -1,0 +1,160 @@
+435:
+  seq:
+  - -sroa
+  - -ipsccp
+  - -instcombine
+  - -simplifycfg
+  - -jump-threading
+  - -indvars
+  - -correlated-propagation
+  - -instcombine
+  - -inferattrs
+  - -jump-threading
+  - -early-cse-memssa
+  - -simplifycfg
+1577:
+  seq:
+  - -early-cse-memssa
+  - -memcpyopt
+  - -slp-vectorizer
+  - -sroa
+  - -mldst-motion
+  - -instcombine
+  - -memcpyopt
+  - -simplifycfg
+  - -early-cse-memssa
+1606:
+  seq:
+  - -mem2reg
+  - -tailcallelim
+  - -mldst-motion
+  - -jump-threading
+  - -simplifycfg
+  - -gvn
+  - -slp-vectorizer
+  - -adce
+  - -mldst-motion
+  - -simplifycfg
+  - -jump-threading
+  - -correlated-propagation
+  - -aggressive-instcombine
+  - -early-cse-memssa
+2659:
+  seq:
+  - -instcombine
+  - -gvn
+  - -instcombine
+  - -slp-vectorizer
+  - -gvn
+  - -simplifycfg
+  - -gvn
+  - -simplifycfg
+  - -gvn
+  - -simplifycfg
+  - -sroa
+  - -jump-threading
+  - -gvn
+  - -simplifycfg
+  - -bdce
+5288:
+  seq:
+  - -early-cse-memssa
+  - -jump-threading
+  - -reassociate
+  - -loop-unswitch
+  - -sroa
+  - -correlated-propagation
+  - -instcombine
+  - -gvn
+  - -jump-threading
+  - -licm
+  - -loop-unroll
+  - -simplifycfg
+  - -memcpyopt
+  - -gvn
+  - -jump-threading
+  - -instcombine
+  - -dse
+  - -simplifycfg
+  - -gvn
+5624:
+  seq:
+  - -sroa
+  - -early-cse-memssa
+  - -reassociate
+  - -instcombine
+  - -simplifycfg
+  - -licm
+  - -speculative-execution
+  - -jump-threading
+  - -early-cse-memssa
+  - -simplifycfg
+  - -instcombine
+  - -simplifycfg
+6955:
+  seq:
+  - -jump-threading
+  - -early-cse-memssa
+  - -simplifycfg
+  - -loop-rotate
+  - -sroa
+  - -slp-vectorizer
+  - -tailcallelim
+  - -early-cse-memssa
+  - -indvars
+  - -ipsccp
+  - -jump-threading
+  - -dse
+  - -mldst-motion
+  - -simplifycfg
+  - -instcombine
+7399:
+  seq:
+  - -sroa
+  - -licm
+  - -early-cse-memssa
+  - -instcombine
+  - -mldst-motion
+  - -jump-threading
+  - -early-cse-memssa
+  - -instcombine
+  - -dse
+  - -simplifycfg
+  - -mldst-motion
+  - -simplifycfg
+7672:
+  seq:
+  - -mem2reg
+  - -indvars
+  - -simplifycfg
+  - -gvn
+  - -mldst-motion
+  - -licm
+  - -memcpyopt
+  - -instcombine
+  - -early-cse-memssa
+  - -slp-vectorizer
+  - -simplifycfg
+  - -instcombine
+  - -slp-vectorizer
+  - -adce
+9965:
+  seq:
+  - -indvars
+  - -mem2reg
+  - -licm
+  - -instcombine
+  - -gvn
+  - -jump-threading
+  - -loop-rotate
+  - -dse
+  - -jump-threading
+  - -early-cse-memssa
+  - -simplifycfg
+  - -instcombine
+  - -inferattrs
+  - -correlated-propagation
+  - -simplifycfg
+  - -instcombine
+  - -early-cse-memssa
+  - -simplifycfg

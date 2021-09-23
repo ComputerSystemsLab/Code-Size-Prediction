@@ -1,0 +1,5 @@
+main
+SolveCubic
+usqrt
+rad2deg
+deg2rad

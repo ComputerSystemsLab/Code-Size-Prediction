@@ -1,0 +1,369 @@
+- seed:  123456789
+Num of model samples to eval:  359
+- best_avr:
+  - avg_functions:  60.89164924621582
+    - loss_coremark-f:  46.32828140258789
+    - loss_mibench-f:  75.45501708984375
+    - spearman_coremark-f:  -0.019749001746180495
+    - spearman_mibench-f:  0.02003299235658148
+    - pearson_coremark-f:  -0.06876479846962015
+    - pearson_mibench-f:  -0.3851098834386559
+  - avg_embedded:  63.38713836669922
+    - loss_coremark:  77.94432830810547
+    - loss_mibench:  48.82994842529297
+    - spearman_coremark:  -0.614703291901912
+    - spearman_mibench:  0.7786981651436279
+    - pearson_coremark:  -0.4024101606358121
+    - pearson_mibench:  0.32744345540311737
+- best_individual: 
+  - LLVM:
+    - loss:  42.30929183959961
+    - spearman:  0.553339541013768
+    - pearson:  0.8408717534329563
+  - Coremark-f-300:
+    - loss:  44.180938720703125
+    - spearman:  0.018567049808580136
+    - pearson:  -0.05421100387509617
+  - Mibench-f-300:
+    - loss:  48.49443054199219
+    - spearman:  0.4967552300387101
+    - pearson:  0.2556786597430609
+  - Coremark:
+    - loss:  77.85755920410156
+    - spearman:  -0.514269486335261
+    - pearson:  -0.301324121017623
+  - Mibench:
+    - loss:  47.86504364013672
+    - spearman:  0.7550151245679527
+   - pearson:  0.3346803615712281
+
+
+
+
+Num of model samples to eval:  377
+- best_avr:
+  - avg_functions:  60.39702796936035
+    - loss_coremark-f:  50.47609329223633
+    - loss_mibench-f:  70.31796264648438
+    - spearman_coremark-f:  -0.0732880630454923
+    - spearman_mibench-f:  0.061579520425313394
+    - pearson_coremark-f:  0.020361887250899338
+    - pearson_mibench-f:  -0.1909120847273084
+  - avg_embedded:  63.20593070983887
+    - loss_coremark:  78.25364685058594
+    - loss_mibench:  48.1582145690918
+    - spearman_coremark:  -0.06009894389329718
+    - spearman_mibench:  0.6468191042343214
+    - pearson_coremark:  -0.4448445803724515
+    - pearson_mibench:  0.26829236070263174
+- best_individual: 
+  - LLVM:
+    - loss:  43.83680725097656
+    - spearman:  0.5362898869605287
+    - pearson:  0.8541020474409484
+  - Coremark-f-300:
+    - loss:  44.19106674194336
+    - spearman:  -0.06910883589242711
+    - pearson:  -0.02578847435542951
+  - Mibench-f-300:
+    - loss:  52.820045471191406
+    - spearman:  0.28760067262921435
+    - pearson:  0.11451317788869708
+  - Coremark:
+    - loss:  78.09432983398438
+    - spearman:  -0.1630269256001576
+    - pearson:  -0.47922984430772464
+  - Mibench:
+    - loss:  48.1582145690918
+    - spearman:  0.6468191042343214
+   - pearson:  0.26829236070263174
+
+
+
+
+Num of model samples to eval:  340
+- best_avr:
+  - avg_functions:  62.06015968322754
+    - loss_coremark-f:  47.58144760131836
+    - loss_mibench-f:  76.53887176513672
+    - spearman_coremark-f:  0.03453080918673198
+    - spearman_mibench-f:  -0.005866386231325357
+    - pearson_coremark-f:  0.0010730083546488288
+    - pearson_mibench-f:  -0.03749588184081419
+  - avg_embedded:  63.111074447631836
+    - loss_coremark:  77.61153411865234
+    - loss_mibench:  48.61061477661133
+    - spearman_coremark:  -0.3725706477954422
+    - spearman_mibench:  0.7789367244310029
+    - pearson_coremark:  0.02403509627005551
+    - pearson_mibench:  0.4106494402948424
+- best_individual: 
+  - LLVM:
+    - loss:  44.04237365722656
+    - spearman:  0.6187687421852293
+    - pearson:  0.8613083610669884
+  - Coremark-f-300:
+    - loss:  44.68810272216797
+    - spearman:  0.025096740032833628
+    - pearson:  0.0056718812742032445
+  - Mibench-f-300:
+    - loss:  51.827415466308594
+    - spearman:  0.4805081467123044
+    - pearson:  0.18764625890635747
+  - Coremark:
+    - loss:  77.61153411865234
+    - spearman:  -0.3725706477954422
+    - pearson:  0.02403509627005551
+  - Mibench:
+    - loss:  48.61061477661133
+    - spearman:  0.7789367244310029
+   - pearson:  0.4106494402948424
+
+
+
+
+- seed:  12345678
+Num of model samples to eval:  350
+- best_avr:
+  - avg_functions:  62.0266056060791
+    - loss_coremark-f:  47.979000091552734
+    - loss_mibench-f:  76.07421112060547
+    - spearman_coremark-f:  -0.048606538357168404
+    - spearman_mibench-f:  -0.15422836853895147
+    - pearson_coremark-f:  -0.004745071109400466
+    - pearson_mibench-f:  -0.03607595912460749
+  - avg_embedded:  65.87768745422363
+    - loss_coremark:  77.87213134765625
+    - loss_mibench:  53.883243560791016
+    - spearman_coremark:  -0.6635825589664784
+    - spearman_mibench:  0.6318188537996581
+    - pearson_coremark:  -0.449956611523049
+    - pearson_mibench:  0.37754465196483034
+- best_individual: 
+  - LLVM:
+    - loss:  43.802738189697266
+    - spearman:  0.5933442888055691
+    - pearson:  0.8540206583403265
+  - Coremark-f-300:
+    - loss:  45.941287994384766
+    - spearman:  -0.04615398202177214
+    - pearson:  -0.003911719919876921
+  - Mibench-f-300:
+    - loss:  48.83216094970703
+    - spearman:  0.46242858695628236
+    - pearson:  0.23645604126070677
+  - Coremark:
+    - loss:  77.87213134765625
+    - spearman:  -0.6635825589664784
+    - pearson:  -0.449956611523049
+  - Mibench:
+    - loss:  51.654117584228516
+    - spearman:  0.5684175638751436
+   - pearson:  0.2883564137505561
+
+
+
+
+Num of model samples to eval:  306
+- best_avr:
+  - avg_functions:  62.748085021972656
+    - loss_coremark-f:  46.98326110839844
+    - loss_mibench-f:  78.51290893554688
+    - spearman_coremark-f:  -0.07040996186111152
+    - spearman_mibench-f:  -0.20921563666840615
+    - pearson_coremark-f:  -0.010900585584988902
+    - pearson_mibench-f:  -0.12504578817012368
+  - avg_embedded:  61.705698013305664
+    - loss_coremark:  77.972412109375
+    - loss_mibench:  45.43898391723633
+    - spearman_coremark:  -0.14936246225775612
+    - spearman_mibench:  0.7570785544930551
+    - pearson_coremark:  0.10264477950265291
+    - pearson_mibench:  0.32769340867603003
+- best_individual: 
+  - LLVM:
+    - loss:  42.710880279541016
+    - spearman:  0.5886055555780442
+    - pearson:  0.8891982886912465
+  - Coremark-f-300:
+    - loss:  45.336666107177734
+    - spearman:  -0.01705683068848595
+    - pearson:  -0.009671317385344505
+  - Mibench-f-300:
+    - loss:  49.55891799926758
+    - spearman:  0.4540286649347655
+    - pearson:  0.15869746311984304
+  - Coremark:
+    - loss:  77.972412109375
+    - spearman:  -0.14936246225775612
+    - pearson:  0.10264477950265291
+  - Mibench:
+    - loss:  45.43898391723633
+    - spearman:  0.7570785544930551
+   - pearson:  0.32769340867603003
+
+
+
+
+Num of model samples to eval:  362
+- best_avr:
+  - avg_functions:  60.50689697265625
+    - loss_coremark-f:  50.50431823730469
+    - loss_mibench-f:  70.50947570800781
+    - spearman_coremark-f:  -0.04565094288992397
+    - spearman_mibench-f:  -0.02072748477332167
+    - pearson_coremark-f:  0.04446084113277605
+    - pearson_mibench-f:  -0.22763575134825637
+  - avg_embedded:  65.28160095214844
+    - loss_coremark:  77.70733642578125
+    - loss_mibench:  52.855865478515625
+    - spearman_coremark:  -0.36047018929343605
+    - spearman_mibench:  0.746922569007349
+    - pearson_coremark:  0.1517750687057466
+    - pearson_mibench:  0.38835925227026996
+- best_individual: 
+  - LLVM:
+    - loss:  42.67094421386719
+    - spearman:  0.6237564813204516
+    - pearson:  0.8733459957209627
+  - Coremark-f-300:
+    - loss:  44.19038009643555
+    - spearman:  -0.061494059107105155
+    - pearson:  -0.023397558269599644
+  - Mibench-f-300:
+    - loss:  52.72718811035156
+    - spearman:  0.11916554152351878
+    - pearson:  -0.13866967047345533
+  - Coremark:
+    - loss:  77.57437896728516
+    - spearman:  -0.31183787036156374
+    - pearson:  0.16450101576558243
+  - Mibench:
+    - loss:  50.031654357910156
+    - spearman:  0.701926603765453
+   - pearson:  0.36744313478476215
+
+
+
+
+- seed:  1234567
+Num of model samples to eval:  350
+- best_avr:
+  - avg_functions:  60.994388580322266
+    - loss_coremark-f:  45.02349853515625
+    - loss_mibench-f:  76.96527862548828
+    - spearman_coremark-f:  -0.04500666774803666
+    - spearman_mibench-f:  -0.07486431466861823
+    - pearson_coremark-f:  -0.011917349717252347
+    - pearson_mibench-f:  -0.004960332479608926
+  - avg_embedded:  63.28220748901367
+    - loss_coremark:  78.18856048583984
+    - loss_mibench:  48.3758544921875
+    - spearman_coremark:  -0.06633850004603233
+    - spearman_mibench:  0.6995707799749901
+    - pearson_coremark:  -0.2727400220068395
+    - pearson_mibench:  0.3587446784983981
+- best_individual: 
+  - LLVM:
+    - loss:  42.95771026611328
+    - spearman:  0.6134386005026752
+    - pearson:  0.8696853472907202
+  - Coremark-f-300:
+    - loss:  44.18336868286133
+    - spearman:  0.029631564501340534
+    - pearson:  -0.047160901812377067
+  - Mibench-f-300:
+    - loss:  53.85432815551758
+    - spearman:  0.3829852967437163
+    - pearson:  0.22174053872393476
+  - Coremark:
+    - loss:  77.86890411376953
+    - spearman:  -0.11875735701254601
+    - pearson:  0.09267797994772688
+  - Mibench:
+    - loss:  48.33122253417969
+    - spearman:  0.7532826032961953
+   - pearson:  0.30310053282248095
+
+
+
+
+Num of model samples to eval:  380
+- best_avr:
+  - avg_functions:  60.89283752441406
+    - loss_coremark-f:  46.4183349609375
+    - loss_mibench-f:  75.36734008789062
+    - spearman_coremark-f:  -0.0004572620092825407
+    - spearman_mibench-f:  -0.0417611511370902
+    - pearson_coremark-f:  -0.026005819118127438
+    - pearson_mibench-f:  -0.1683102766525898
+  - avg_embedded:  62.84157943725586
+    - loss_coremark:  77.70916748046875
+    - loss_mibench:  47.97399139404297
+    - spearman_coremark:  -0.7835252670159557
+    - spearman_mibench:  0.8211447647883912
+    - pearson_coremark:  -0.9174317024380103
+    - pearson_mibench:  0.4241354002337824
+- best_individual: 
+  - LLVM:
+    - loss:  43.226478576660156
+    - spearman:  0.5723518194355203
+    - pearson:  0.8640889277571434
+  - Coremark-f-300:
+    - loss:  44.18239974975586
+    - spearman:  0.03044923697008335
+    - pearson:  -0.025821367342729693
+  - Mibench-f-300:
+    - loss:  50.31943893432617
+    - spearman:  0.47857836119238284
+    - pearson:  0.31119058081007867
+  - Coremark:
+    - loss:  77.57218170166016
+    - spearman:  -0.7714001137006801
+    - pearson:  -0.8671501157711438
+  - Mibench:
+    - loss:  47.2891845703125
+    - spearman:  0.6852647212438921
+   - pearson:  0.4143043867592414
+
+
+
+
+Num of model samples to eval:  406
+- best_avr:
+  - avg_functions:  60.8833122253418
+    - loss_coremark-f:  47.74034881591797
+    - loss_mibench-f:  74.02627563476562
+    - spearman_coremark-f:  -0.06490242704273183
+    - spearman_mibench-f:  -0.05247712005443169
+    - pearson_coremark-f:  0.009174242097980052
+    - pearson_mibench-f:  -0.020113442260564492
+  - avg_embedded:  64.06876754760742
+    - loss_coremark:  79.10321807861328
+    - loss_mibench:  49.03431701660156
+    - spearman_coremark:  -0.12462649096624015
+    - spearman_mibench:  0.7656307232205223
+    - pearson_coremark:  -0.0503983719628096
+    - pearson_mibench:  0.5043949277172726
+- best_individual: 
+  - LLVM:
+    - loss:  42.79007339477539
+    - spearman:  0.6033539611314791
+    - pearson:  0.8723350974984945
+  - Coremark-f-300:
+    - loss:  44.18046188354492
+    - spearman:  0.02478322272035766
+    - pearson:  -0.021073864812588893
+  - Mibench-f-300:
+    - loss:  50.31275177001953
+    - spearman:  0.2578982350054211
+    - pearson:  0.0007728393145999994
+  - Coremark:
+    - loss:  78.84041595458984
+    - spearman:  -0.07900693925323467
+    - pearson:  -0.23266184230157508
+  - Mibench:
+    - loss:  48.87529754638672
+    - spearman:  0.8192378565301252
+   - pearson:  0.4488129640576723
+

@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -Wall -fdiagnostics-color=always -fvisibility-inlines-hidden -g -shared -Wl,-soname,libFeatureExtractor.so -o ../lib/libFeatureExtractor.so CMakeFiles/FeatureExtractor.dir/CFGextrator.cpp.o CMakeFiles/FeatureExtractor.dir/Pass.cpp.o 

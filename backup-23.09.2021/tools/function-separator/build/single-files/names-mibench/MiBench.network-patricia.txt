@@ -1,0 +1,6 @@
+pat_insert
+bit
+insertR
+pat_remove
+pat_search
+main

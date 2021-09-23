@@ -1,0 +1,117 @@
+"""
+Metodologia:
+    1) Executar os rounds 123456789, 12345678, 1234567, nos modelos
+    com best_10 e best_22 com early-stop.
+    2) Encontrar o melhor round e então executar best-models
+    neste round.
+
+Conjuntos:
+    - LSTM:
+        - LLVM:
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK (modo antigo)
+                - best:              OK (todos os rounds)
+            - best22-cv
+                - early-stop:        executando
+                - best:
+        - LLVM + Mibench + Coremark
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK (modo antigo)
+                - best:
+            - best22-cv
+                - early-stop:        OK
+                - best:
+        - Angha15 + LLVM:
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK
+                - best:
+            - best22-cv
+                - early-stop:
+                - best:
+        - AnghaW + LLVM:
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK
+                - best:
+            - best22-cv
+                - early-stop:
+                - best:
+    - GRU:
+        - LLVM:
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK (modo antigo)
+                - best:
+            - best22-cv
+                - early-stop:
+                - best:
+        - LLVM + Mibench + Coremark
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK (modo antigo)
+                - best:
+            - best22-cv
+                - early-stop:        OK
+                - best:
+        - Angha15 + LLVM:
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK
+                - best:
+            - best22-cv
+                - early-stop:
+                - best:
+        - AnghaW + LLVM:
+            - best10-embedding:
+                - early-stop:
+                - best:
+            - best22-embedding
+                - early-stop:
+                - best:
+            - best10-cv
+                - early-stop:        OK
+                - best:
+            - best22-cv
+                - early-stop:
+                - best:
+"""
+
+

@@ -1,0 +1,50 @@
+1: 
+  - '-adce' 
+2:
+  - '-aggressive-instcombine' 
+3:
+  - '-bdce' 
+4:
+  - '-correlated-propagation' 
+5:
+  - '-dse'
+6:
+  - '-early-cse-memssa'
+7:
+  - '-gvn'
+8:
+  - '-indvars'
+9:
+  - '-inferattrs'
+10:
+  - '-instcombine'
+11:
+  - '-ipsccp'
+12:
+  - '-jump-threading'
+13:
+  - '-licm'
+14:
+  - '-loop-rotate'
+15:
+  - '-loop-unroll'
+16:
+  - '-loop-unswitch'
+17:
+  - '-mem2reg'
+18:
+  - '-memcpyopt'
+19:
+  - '-mldst-motion'
+20:
+  - '-reassociate'
+21:
+  - '-simplifycfg'
+22:
+  - '-slp-vectorizer'
+23:
+  - '-speculative-execution'
+24:
+  - '-sroa'
+25:
+  - '-tailcallelim'

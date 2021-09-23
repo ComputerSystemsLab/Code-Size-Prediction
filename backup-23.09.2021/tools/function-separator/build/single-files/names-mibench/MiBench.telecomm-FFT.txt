@@ -1,0 +1,9 @@
+IsPowerOfTwo
+NumberOfBitsNeeded
+ReverseBits
+Index_to_frequency
+fft_float
+CheckPointer
+rand
+srand
+main
