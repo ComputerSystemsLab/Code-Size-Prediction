@@ -29,6 +29,10 @@ LLVM implemented analysis passes
 
 Optimization sequences from Best10
 
+- `best10.yaml`: best10 optimization sequences
+- `flags-best10.yaml`: all individual optimization passes of best10
+- `idx-flags-best10.yaml`: integer correspondend values of passes
+- `seq-encoding-best10.yaml`: sequences as sequences of integers
 
 ### Statistics
 
