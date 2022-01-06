@@ -23,12 +23,19 @@ def statistics(yaml_file):
     for key, value in f.items():
         inst_values.append(value)
 
+ 
+
     inst_values = np.array(inst_values)
+    quartiles = percentile(inst_values, [25, 75])
+
     print('- num_of_samples: ', len(inst_values))
     print('- max_value: ', max(inst_values))
     print('- min_value: ', min(inst_values))
-    print('- mean_value: ', np.mean(inst_values))
-    print('- std_value: ', std(inst_values))
+    print('- mean_value: %.3f' % np.mean(inst_values))
+    print('- Q1_value: %.3f' % quartiles[0])
+    print('- median_value: %.3f' % np.median(inst_values))
+    print('- Q3_value: %.3f' % quartiles[1])
+    print('- std_value: %.3f' % std(inst_values))
 
 def Main():
     parser = argparse.ArgumentParser()

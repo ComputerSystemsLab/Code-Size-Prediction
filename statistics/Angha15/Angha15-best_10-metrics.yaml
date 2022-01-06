@@ -1,5 +1,8 @@
 - num_of_samples:  19933
 - max_value:  1017
 - min_value:  2
-- mean_value:  220.42266593086842
-- std_value:  100.69003834929721
+- mean_value: 220.423
+- Q1_value: 161.000
+- median_value: 193.000
+- Q3_value: 250.000
+- std_value: 100.690
